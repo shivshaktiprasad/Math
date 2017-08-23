@@ -1,0 +1,29 @@
+.dim-descriptor {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+
+.dim-descriptor > tbody > tr:first-child > td :first-child {
+    height: 2px;
+    width: 2px;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black; 
+}
+
+.dim-descriptor > tbody > tr:first-child > td :nth-child(2) {
+    height: 2px;
+    width: 2px;
+    border-bottom:1px solid black; 
+}
+.dim-descriptor > tbody > tr:nth-child(2) > td :first-child {
+    height: 2px;
+    width: 2px;
+    border-left: 1px solid black; 
+}
+
+.dim-descriptor > tbody > tr:nth-child(2) > td :nth-child(2) {
+    height: 10px;
+    width: 70px;
+    border-bottom:1px solid black; 
+}
